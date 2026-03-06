@@ -131,7 +131,7 @@ app.onError((err, c) => {
 // Insure security - The autograder will have you change this value
 function checkToken(c) {
   const token = c.req.query("token");
-  if ( token == '42' ) return true;
+  if ( token == '2606_58158a:32e3ed' ) return true;
   throw new HTTPException(401, { message: 'Missing or invalid token' }); 
 }
 
